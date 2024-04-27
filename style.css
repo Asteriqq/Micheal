@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    color: #878787;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .primary-content,
+  .secondary-content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .main-header {
+    background-color: #031629;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  .secondary-content {
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 26px;
+    color: white;
+  }
+  
+  .t-border {
+    border-top: 2px solid lightgrey;
+  }
+  
+  button {
+    background-color: #031629;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #031629;
+  } 
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: forestgreen;
+  }
+  
+  #newsletter {
+    display: flex;
+    justify-content: space-between;}
